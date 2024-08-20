@@ -45,7 +45,7 @@ const ThingsToDo: React.FC = () => {
     <section className="bg-tertiary py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-4">Things to do</h2>
-        <p className="text-xl text-center text-white mb-8">Add your group's statistical question here.</p>
+        <p className="text-xl text-center text-white mb-8">Add your group&apos;s statistical question here.</p>
         <div className="flex flex-wrap justify-center gap-8">
           {activities.map((activity, index) => (
             <div key={index} className={`w-full sm:w-64 ${activity.color} rounded-t-full pt-8 pb-4 px-4 text-center relative overflow-hidden`}>
